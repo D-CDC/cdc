@@ -1,4 +1,4 @@
-# Substrate Node Template
+# CDC-Core
 
 A new SRML-based Substrate node, ready for hacking.
 
@@ -68,4 +68,3 @@ cargo run -- \
 ```
 
 Additional CLI usage options are available and may be shown by running `cargo run -- --help`.
-# cdc-core
