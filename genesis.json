@@ -8,7 +8,7 @@
   "telemetryEndpoints": [
     ["wss://telemetry.polkadot.io/submit/", 0]
   ],
-  "protocolId": "fir",
+  "protocolId": "cdc",
   "consensusEngine": null,
   "properties": {
     "tokenDecimals": 15,
