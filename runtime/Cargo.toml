@@ -28,7 +28,7 @@ std = [
 [package]
 authors = ['cdc']
 edition = '2018'
-name = 'cdc-core-runtime'
+name = 'cdc-runtime'
 version = '2.0.0'
 [build-dependencies.wasm-builder-runner]
 package = 'substrate-wasm-builder-runner'

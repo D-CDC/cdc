@@ -7,7 +7,7 @@ use system::ensure_signed;
 pub trait Trait: balances::Trait {}
 
 decl_storage! {
-  trait Store for Module<T: Trait> as Demo {
+  trait Store for Module<T: Trait> as CarinfoModule {
     Payable get(payable): Option<T::Balance>;
     Pot get(pot): T::Balance;
     Nonce get(nonce): u64;
