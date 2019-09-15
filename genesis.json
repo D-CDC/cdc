@@ -5,10 +5,15 @@
     "/ip4/39.98.43.179/tcp/30333/p2p/QmPQyZkptqPMfhPKLtoZmv9JfXhWHHRo5fTu9jV11G6cPr",
     "/ip4/39.98.176.213/tcp/30333/p2p/QmXCND9H4KFEGD6u8DFQe3XrZVLREmZJqXgYeEshsp7vFc"
   ],
-  "telemetryEndpoints": null,
-  "protocolId": null,
+  "telemetryEndpoints": [
+    ["wss://telemetry.polkadot.io/submit/", 0]
+  ],
+  "protocolId": "fir",
   "consensusEngine": null,
-  "properties": null,
+  "properties": {
+    "tokenDecimals": 15,
+    "tokenSymbol": "CDC"
+  },
   "genesis": {
     "raw": [
       {
