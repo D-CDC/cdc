@@ -1,5 +1,5 @@
 use primitives::{Pair, Public};
-use cdc_core_runtime::{
+use cdc_runtime::{
 	AccountId, BabeConfig, BalancesConfig, GenesisConfig, GrandpaConfig,
 	SudoConfig, IndicesConfig, SystemConfig, WASM_BINARY, 
 };

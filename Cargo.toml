@@ -1,5 +1,5 @@
 [[bin]]
-name = 'cdc-core'
+name = 'cdc'
 path = 'src/main.rs'
 [profile.release]
 panic = 'unwind'
@@ -11,7 +11,7 @@ members = ['runtime']
 authors = ['cdc']
 build = 'build.rs'
 edition = '2018'
-name = 'cdc-core'
+name = 'cdc'
 version = '2.0.0'
 
 [dependencies]
@@ -66,7 +66,7 @@ git = 'https://github.com/paritytech/substrate.git'
 package = 'substrate-network'
 rev = '447e6ea239b7b033c3c440b398d47c567f8874d6'
 
-[dependencies.cdc-core-runtime]
+[dependencies.cdc-runtime]
 path = 'runtime'
 
 [dependencies.primitives]

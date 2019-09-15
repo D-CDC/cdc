@@ -64,7 +64,7 @@ pub type DigestItem = generic::DigestItem<Hash>;
 /// Used for the module template in `./template.rs`
 mod template;
 
-mod cdc;
+mod carinfo;
 
 /// Opaque types. These are used by the CLI to instantiate machinery that don't need to know
 /// the specifics of the runtime. They can then be made to be agnostic over specific formats
@@ -96,8 +96,8 @@ pub mod opaque {
 
 /// This runtime version.
 pub const VERSION: RuntimeVersion = RuntimeVersion {
-	spec_name: create_runtime_str!("cdc-core"),
-	impl_name: create_runtime_str!("cdc-core"),
+	spec_name: create_runtime_str!("cdc"),
+	impl_name: create_runtime_str!("cdc"),
 	authoring_version: 3,
 	spec_version: 4,
 	impl_version: 4,
@@ -259,7 +259,7 @@ impl template::Trait for Runtime {
 	type Event = Event;
 }
 
-impl cdc::Trait for Runtime {}
+impl carinfo::Trait for Runtime {}
 
 construct_runtime!(
 	pub enum Runtime where
@@ -276,7 +276,7 @@ construct_runtime!(
 		Sudo: sudo,
 		// Used for the module template in `./template.rs`
 		TemplateModule: template::{Module, Call, Storage, Event<T>},
-		CDC: cdc::{Module, Call, Storage},
+		CarinfoModule: carinfo::{Module, Call, Storage},
 	}
 );
 

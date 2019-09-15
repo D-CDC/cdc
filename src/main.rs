@@ -15,9 +15,9 @@ fn main() {
 		name: "Substrate Node",
 		commit: env!("VERGEN_SHA_SHORT"),
 		version: env!("CARGO_PKG_VERSION"),
-		executable_name: "cdc-core",
+		executable_name: "cdc",
 		author: "cdc",
-		description: "cdc-core",
+		description: "cdc",
 		support_url: "support.anonymous.an",
 	};
 
