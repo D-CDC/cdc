@@ -1,4 +1,4 @@
-# CDC-Core
+# CDC
 
 A new SRML-based Substrate node, ready for hacking.
 
